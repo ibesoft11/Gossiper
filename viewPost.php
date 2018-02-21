@@ -126,6 +126,7 @@ if($id == 0){
                         </section>
                         <!--/Section: Leave a reply -->
                          <!--Main wrapper-->
+                         <section id="comments">
                         <div class="comments-list text-left">
                             <div class="section-heading">
                                 <h3>Comments <span class="badge blue"><?php echo $gossipController->getGossipCommentCount($id)?></span></h3>
@@ -163,6 +164,7 @@ if($id == 0){
                                 }
                               ?>
                       </div>
+                      </section>
                     <?php
                         }
                     }
